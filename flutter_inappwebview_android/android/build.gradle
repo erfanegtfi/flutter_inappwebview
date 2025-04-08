@@ -3,8 +3,11 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {
-        google()
-        mavenCentral()
+        maven {
+            url 'https://maven.myket.ir'
+        }
+        // google()
+        // mavenCentral()
     }
 
     dependencies {
